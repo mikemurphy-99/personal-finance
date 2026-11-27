@@ -13,6 +13,8 @@ Clean, minimal personal finance tracker. Runs in Docker on Raspberry Pi 5 (or an
 
 ```bash
 # Build and run
+git clone https://github.com/mikemurphy-99/personal-finance.git
+cd personal-finance
 docker compose up -d --build
 
 # App will be available at http://localhost:3000
